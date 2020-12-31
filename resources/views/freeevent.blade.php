@@ -13,8 +13,8 @@
                     dadruch erreichen wir ein größeres publikum und du kannst dein event einer größeren zielgruppe präsentieren und so teilnehmer und kontakte finden an die du vielleicht noch gar nciht dedacht hast.
                 </p>
                 <div class="grid grid-cols-2 gap-10 w-full mt-12">
-                    <div>
-                        <a href="{{route('register')}}" class="block bg-primary-logo text-white text-center font-semibold p-3 rounded-xl shadow-lg hover:text-white hover:shadow-none transition duration-150 ease-in-out no-underline">kostenlos registrieren</a>
+                    <div class="col-span-2 lg:col-span-1">
+                        <a href="{{route('register')}}" class="block w-full bg-primary-logo text-white text-center font-semibold p-3 rounded-xl shadow-lg hover:text-white hover:shadow-none transition duration-150 ease-in-out no-underline">kostenlos registrieren</a>
                     </div>
                 </div>
             </div>
