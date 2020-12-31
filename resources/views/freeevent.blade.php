@@ -6,7 +6,7 @@
     <x-navbar></x-navbar>
     <div class="min-h-screen bg-white pt-48">
         <div class="grid grid-cols-2 gap-0 container mx-auto">
-            <div class="flex flex-col items-center justify-center">
+            <div class="flex flex-col items-center justify-center col-span-2 lg:col-span-1 p-5 lg:p-0">
                 <h1 class="text-5xl text-left">präsentiere dein event, <span class="text-primary-logo">kostenlos!</span></h1>
                 <p>
                     <span class="text-primary-logo">branchenkalender</span> bündelt branchenevents, networkingtermine, schulungen und onlineevents aller branchen auf einer plattform,
@@ -18,7 +18,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w-full h-full" style="background: url({{ asset('conference-meeting.jpg') }})">
+            <div class="w-full h-full hidden lg:block" style="background: url({{ asset('conference-meeting.jpg') }})">
                 <svg  class="text-white" fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1024 768">
                     <g>
                         <path d="M-116.25-154.13V954h1477.5V-154.13H-116.25z M899.05,537.45c0.31,4.62,0.48,9.28,0.48,13.99
