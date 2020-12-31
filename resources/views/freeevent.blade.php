@@ -4,10 +4,10 @@
 
 @section('content')
     <x-navbar></x-navbar>
-    <div class="min-h-screen bg-white pt-48">
+    <div class="min-h-screen bg-white pt-10  md:pt-48">
         <div class="grid grid-cols-2 gap-0 container mx-auto">
             <div class="flex flex-col items-center justify-center col-span-2 lg:col-span-1 p-5 lg:p-0">
-                <h1 class="text-5xl text-left">präsentiere dein event, <span class="text-primary-logo">kostenlos!</span></h1>
+                <h1 class="text-2xl leading-tight md:text-5xl text-left">präsentiere dein event, <span class="text-primary-logo">kostenlos!</span></h1>
                 <p>
                     <span class="text-primary-logo">branchenkalender</span> bündelt branchenevents, networkingtermine, schulungen und onlineevents aller branchen auf einer plattform,
                     dadruch erreichen wir ein größeres publikum und du kannst dein event einer größeren zielgruppe präsentieren und so teilnehmer und kontakte finden an die du vielleicht noch gar nciht dedacht hast.

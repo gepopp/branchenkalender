@@ -1,14 +1,14 @@
 <div class="container mx-auto bg-white">
     <nav class="flex items-center justify-between">
-        <div class="flex items-center">
-            <x-logo class="w-16 h-16"></x-logo>
+        <div class="flex items-center pt-4 pl-3">
+            <x-logo class="w-10 md:w-16 h-10 md:h-16"></x-logo>
             <div>
-                <h3 class="text-3xl font-extrabold tracking-wider text-center text-gray-600 mb-0 leading-none">branchenkalender</h3>
+                <h3 class="text-xl md:text-3xl font-extrabold tracking-wider text-center text-gray-600 mb-0 leading-none">branchenkalender</h3>
                 <p class="text-sm my-0 leading-none">never miss <span class="text-primary-logo">your</span> network</p>
             </div>
         </div>
         <div>
-            <div class="mt-4 mr-4">
+            <div class="mt-4 mr-4 hidden md:block">
                 @if (Route::has('login'))
                     <div class="space-x-4">
                         @auth
