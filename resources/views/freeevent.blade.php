@@ -12,9 +12,9 @@
                     <span class="text-primary-logo">branchenkalender</span> bündelt branchenevents, networkingtermine, schulungen und onlineevents aller branchen auf einer plattform,
                     dadruch erreichen wir ein größeres publikum und du kannst dein event einer größeren zielgruppe präsentieren und so teilnehmer und kontakte finden an die du vielleicht noch gar nciht dedacht hast.
                 </p>
-                <div class="grid grid-cols-2 gap-10">
+                <div class="grid grid-cols-2 gap-10 w-full mt-12">
                     <div>
-                        <a href="{{route('register')}}"
+                        <a href="{{route('register')}}" class="block bg-primary-logo text-white text-center font-semibold p-3 rounded-xl shadow-lg hover:text-white hover:shadow-none transition duration-150 ease-in-out no-underline">kostenlos registrieren</a>
                     </div>
                 </div>
             </div>
